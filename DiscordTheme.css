@@ -18,7 +18,7 @@
 	/*This is the only area you should be modifying, border may look bad on other themes.*/
 	width: 50%;
 	border-radius: 10px;
-	border: 1px solid var(--border-faint);
+	border: 1px solid var(--border-subtle);
 }
 
 /*Move the title bar text to the left, where it should be.*/
