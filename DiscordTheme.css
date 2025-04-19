@@ -1,0 +1,31 @@
+/**
+ * @name Floaty Topbar
+ * @author CandyPx
+ * @authorLink https://github.com/CandyPxUwU
+ * @version 1-beta
+ * @invite 
+ * @description Topbar that floats and fills in the weird title bar thing, early in development. (doesnt work that well on super small screens)
+ * @source
+*/
+/*Border Radius Patch*/
+.title_f75fb0.container__9293f.themed__9293f{
+	border-radius: 10px;
+}
+
+.subtitleContainer_f75fb0{
+	background: rgba(0,0,0,0);
+	position: fixed;
+	top: 5px;
+	left: 25%;
+	z-index:10;
+	/*This is the only area you should be modifying, border may look bad on other themes.*/
+	width: 50%;
+	border-radius: 10px;
+	border: solid 1px #242424;
+}
+
+/*Move the title bar text to the left, where it should be.*/
+.title__85643{
+	position: fixed;
+	left: 90px;
+}
