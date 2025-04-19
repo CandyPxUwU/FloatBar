@@ -9,11 +9,8 @@
 */
 /*Border Radius Patch*/
 .title_f75fb0.container__9293f.themed__9293f{
-	border-radius: 10px;
 }
-
-.subtitleContainer_f75fb0{
-	background: rgba(0,0,0,0);
+#app-mount > div.appAsidePanelWrapper_a3002d > div.notAppAsidePanel_a3002d > div.app_a3002d > div > div.layers__960e4.layers__160d8 > div > div > div > div.content_c48ade > div.page_c48ade > div > div > div.subtitleContainer_f75fb0 > section{
 	position: fixed;
 	top: 5px;
 	left: 25%;
@@ -21,7 +18,7 @@
 	/*This is the only area you should be modifying, border may look bad on other themes.*/
 	width: 50%;
 	border-radius: 10px;
-	border: solid 1px #242424;
+	border: 1px solid var(--border-faint);
 }
 
 /*Move the title bar text to the left, where it should be.*/
